@@ -5,5 +5,6 @@ WORDS = File.new('words').read.strip.split
 
 get '/' do
   ix = rand(WORDS.size)
-  WORDS[ix]
+  @word = WORDS[ix]
+  haml :index
 end
