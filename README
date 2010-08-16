@@ -1,0 +1,6 @@
+
+All this does is use the words file (ripped straight out of
+/usr/share/dict/words) to return a new random word at every refresh of the
+browser page. It can be run on Heroku unmodified and was thrown together in
+like 10 minutes for a friend. Only things it needs to run are sinatra and
+haml.
