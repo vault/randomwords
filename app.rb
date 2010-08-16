@@ -9,3 +9,7 @@ get '/' do
   @word = WORDS[ix]
   haml :index
 end
+
+get '/*' do
+  redirect '/'
+end
