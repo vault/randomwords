@@ -11,11 +11,15 @@ body {
   padding-right: auto;
 }
 
-h1 {
+h1, h2 {
   font-family: Georgia "Times New Roman" serif;
   font-weight: normal;
   font-size: 3em;
   color: #8F69D1;
+}
+
+h2 {
+  font-size: 1.5em;
 }
 
 .word {
@@ -28,5 +32,5 @@ h1 {
   font-family: Georgia "Times New Roman" Serif;
   color: #4C2A87;
   font-weight: bold;
-  font-size: 8em;
+  font-size: 7em;
 }
