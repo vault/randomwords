@@ -11,7 +11,7 @@ body {
   padding-right: auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: Georgia "Times New Roman" serif;
   font-weight: normal;
   font-size: 3em;
@@ -20,6 +20,18 @@ h1, h2 {
 
 h2 {
   font-size: 1.5em;
+}
+
+footer {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+h3 {
+  font-size: 1em;
+  display: inline;
+  text-align: right;
 }
 
 .word {
